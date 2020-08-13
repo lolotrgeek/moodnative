@@ -13,14 +13,14 @@ import {
   ScrollView,
   View,
   Text,
-  StatusBar,
 } from 'react-native';
-
+import NativeIcon from './components/Icon'
 
 export default function App () {
   return (
     <SafeAreaView>
       <Text>Hello!</Text>
+      <NativeIcon name="add" size={30} color="#4F8EF7" />
     </SafeAreaView>
   );
 };
